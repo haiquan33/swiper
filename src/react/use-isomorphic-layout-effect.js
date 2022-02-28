@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 
 function useIsomorphicLayoutEffect(callback, deps) {
   // eslint-disable-next-line
